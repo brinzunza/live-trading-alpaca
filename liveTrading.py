@@ -9,9 +9,9 @@ import alpaca_trade_api as tradeapi
 from alpaca_trade_api.rest import REST, TimeFrame
 
 # Alpaca API credentials
-ALPACA_API_KEY = 'PKWG6BM2U94TPRYJSXSY'
-ALPACA_SECRET_KEY = 'tMuzBSWeqHUfjyb5f0hZtLXowfKdmeurF1CmiHAS'
-ALPACA_BASE_URL = 'https://paper-api.alpaca.markets'  # Use this for paper trading
+ALPACA_API_KEY = 'api-key'
+ALPACA_SECRET_KEY = 'secret-key'
+ALPACA_BASE_URL = 'https://paper-api.alpaca.markets'
 
 # Initialize Alpaca API
 api = tradeapi.REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL, api_version='v2')
